@@ -1,0 +1,23 @@
+{
+  "name": "@fastgpt-plugin/microsoft-teams",
+  "version": "0.1.0",
+  "description": "Microsoft Teams collaboration toolset for FastGPT",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx @fastgpt-plugin/cli build --minify",
+    "check": "npx @fastgpt-plugin/cli check",
+    "pack": "npx @fastgpt-plugin/cli pack",
+    "test": "vitest run",
+    "type-check": "tsc --noEmit"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "@fastgpt-plugin/cli": "0.2.0",
+    "@fastgpt-plugin/sdk-factory": "0.0.1",
+    "@types/node": "22.20.1",
+    "typescript": "5.9.3",
+    "vitest": "4.1.10",
+    "zod": "4.4.3"
+  }
+}

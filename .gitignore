@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.pkg
+*.tgz
+.env
+.secrets*.json
